@@ -1,0 +1,198 @@
+body{
+font-family: arial;
+}
+
+#googleImage{
+	display:absolute;
+	background-image: url("../images/logo.png");
+	background-size: 269px 95px;
+	background-repeat: no-repeat;
+	height: 95px;
+	width: 269px;
+	margin-left: 540px;
+}
+
+#content{
+position: relative;
+top: 132px;
+}
+
+#googleForm{
+
+}
+
+#searchTextWrapper{
+margin-left: 388px;
+width: 574px;
+height: 33px;
+}
+
+#searchText{
+position: relative;;
+width: 99%;
+height: 80%;
+font-size: 15px;
+padding: 1px 0px 1px 8px;
+border: 1px #cdcdcd solid;
+}
+
+#searchText:hover{
+border: 1px #b7b7b7 solid;
+}
+
+#buttons{
+width: 230px;
+margin: auto;
+padding: 2px;
+}
+
+#googleSearch, #feelingLucky{
+vertical-align: center;
+padding: 0;
+height: 30px;
+border: 1px solid #dcdcdc;
+font-size: 11px;
+font-weight: bold;
+background: linear-gradient(#f5f5f5, #f1f1f1);
+}
+
+#googleSearch{
+width: 96px;
+}
+
+#feelingLucky{
+width: 111px;
+}
+
+#topBar{
+width: 100%;
+height: 60px;
+position: relative;
+}
+
+#topBarContent{
+position: absolute;
+height: 32px;
+float: right;
+top: 40%;
+margin-top: -16px;
+margin-right: 20px;
+text-align: middle;
+font-family: arial;
+font-size: 13px;
+bottom: 30px;
+right: 1.5%;
+}
+
+#apps{
+display: inline-block;
+width: 30px;
+height: 30px;
+background-image: url('../images/sprites.png');
+background-repeat: no-repeat;
+background-position: -101px -62px;
+opacity: 0.55;
+margin-top: -4px;
+}
+
+#notifications{
+display: inline-block;
+width: 30px;
+height: 30px;
+background-image: url('../images/sprites.png');
+background-repeat: no-repeat;
+background-position: -132px -61px;
+opacity: 0.55;
+margin-top: -4px;
+}
+
+#googleShare{
+display: inline-block;
+width: 30px;
+height: 30px;
+background-image: url('../images/sprites.png');
+background-repeat: no-repeat;
+background-position: -259px -107px;
+opacity: 0.55;
+vertical-align: bottom;
+}
+
+#dp{
+display: inline-block;
+width: 32px;
+height: 32px;
+background-image: url('../images/dp.jpg');
+background-repeat: no-repeat;
+border-radius: 50%;
+vertical-align: middle;
+}
+
+#apps:hover{
+opacity: 1;
+}
+
+#notifications:hover{
+opacity: 1;
+}
+
+#googleShare:hover{
+opacity: 1;
+}
+
+#dp:hover{
+opacity: 1;
+}
+
+a:link, a:visited{
+text-decoration: none;
+color: black;
+}
+
+#topBarContent span:hover{
+text-decoration: underline;
+}
+
+#topBarContent span{
+margin-top: 4px;
+display: inline-table;
+vertical-align: middle;
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	clear: both;
+	background-color: #f2f2f2;
+	bottom: 0px;
+	border-top: 1px solid #e4e4e4;
+}
+
+#footer span{
+font-color: #666;
+line-height: 40px;
+font-size: small;
+opacity: 0.75;
+}
+
+#footerLeft{
+
+float: left;
+}
+
+#footerRight{
+float:right;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+#country{
+position: absolute;
+font-weight: bold;
+color: gray;
+z-index: 5;
+left: 759px;
+top: 264px;
+}
